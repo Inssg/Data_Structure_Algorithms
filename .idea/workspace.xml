@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1154e3ba-b5bc-4c37-a9c4-2eea541ede84" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Structure_Algorithm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap01/Alternative1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap01/Alternative2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap01/JudgeABC1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap01/JudgeABC2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap01/JudgeSign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap01/Max3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap01/Max3Method.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap01/Median.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap01/Multi99Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap01/PrintStars1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap01/PrintStars2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap01/Q01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap01/Q02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap01/Q03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap01/Q04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap01/Q07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap01/Q08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap01/Q09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap01/Q10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap01/Q11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap01/Q12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap01/Q13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap01/Q14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap01/Q15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap01/Q16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap01/SumFor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap01/SumVerbose1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap01/SumVerbose2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap01/SumWhile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap01/TriangleLB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap01/TwoDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/ArraySumForIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/CardConv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/CloneArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/MaxOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/MaxOfArrayRand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/PhysicalExamination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/PrimeNumber1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/PrimeNumber2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/PrimeNumber3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/Q01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/Q02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/Q03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/Q04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/Q05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/Q06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/Q07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap02/ReverseArray.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Bi9slCRitVsFOUb9gFWJWAa3wL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.import"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="chap02" />
+      <recent name="chap01" />
+    </key>
+  </component>
+  <component name="RunManager" selected="애플리케이션.Q07">
+    <configuration name="Q07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap02.Q07" />
+      <module name="Data_Structure_Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chap02.CardConv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap02.CardConv" />
+      <module name="Data_Structure_Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chap02.Q04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap02.Q04" />
+      <module name="Data_Structure_Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chap02.Q05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap02.Q05" />
+      <module name="Data_Structure_Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chap02.Q06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap02.Q06" />
+      <module name="Data_Structure_Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="애플리케이션.Q07" />
+        <item itemvalue="애플리케이션.chap02.Q06" />
+        <item itemvalue="애플리케이션.chap02.CardConv" />
+        <item itemvalue="애플리케이션.chap02.Q05" />
+        <item itemvalue="애플리케이션.chap02.Q04" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="1154e3ba-b5bc-4c37-a9c4-2eea541ede84" name="변경" comment="" />
+      <created>1657378250701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657378250701</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
