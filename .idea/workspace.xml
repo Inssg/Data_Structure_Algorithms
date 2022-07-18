@@ -4,62 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1154e3ba-b5bc-4c37-a9c4-2eea541ede84" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data_Structure_Algorithm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Alternative1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Alternative2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/JudgeABC1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/JudgeABC2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/JudgeSign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Max3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Max3Method.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Median.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Multi99Table.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/PrintStars1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/PrintStars2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Q01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Q02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Q03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Q04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Q07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Q08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Q09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Q10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Q11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Q12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Q13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Q14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Q15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/Q16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/SumFor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/SumVerbose1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/SumVerbose2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/SumWhile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/TriangleLB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap01/TwoDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap02/ArraySumForIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap02/CardConv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap02/CloneArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap02/MaxOfArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap02/MaxOfArrayRand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap02/PhysicalExamination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap02/PrimeNumber1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap02/PrimeNumber2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap02/PrimeNumber3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap02/Q01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap02/Q02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap02/Q03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap02/Q04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap02/Q05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap02/Q06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap02/Q07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap02/ReverseArray.java" afterDir="false" />
+    <list default="true" id="1154e3ba-b5bc-4c37-a9c4-2eea541ede84" name="변경" comment="Java Algorithms Basic Day01&amp;Day02">
+      <change afterPath="$PROJECT_DIR$/src/chap03/SeqSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap03/SeqSearchFor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap03/SeqSearchSen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,24 +37,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.import"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="chap02" />
       <recent name="chap01" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Q07">
+  <component name="RunManager" selected="애플리케이션.SeqSearchSen">
+    <configuration name="Feedback" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap02.Feedback" />
+      <module name="Data_Structure_Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap02.MaxOfArray" />
+      <module name="Data_Structure_Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Q07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap02.Q07" />
       <module name="Data_Structure_Algorithm" />
@@ -119,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chap02.CardConv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap02.CardConv" />
+    <configuration name="SeqSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap03.SeqSearch" />
       <module name="Data_Structure_Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap02.*" />
+          <option name="PATTERN" value="chap03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,38 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chap02.Q04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap02.Q04" />
+    <configuration name="SeqSearchSen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap03.SeqSearchSen" />
       <module name="Data_Structure_Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="chap02.Q05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap02.Q05" />
-      <module name="Data_Structure_Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="chap02.Q06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap02.Q06" />
-      <module name="Data_Structure_Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap02.*" />
+          <option name="PATTERN" value="chap03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.SeqSearchSen" />
+        <item itemvalue="애플리케이션.SeqSearch" />
+        <item itemvalue="애플리케이션.Feedback" />
+        <item itemvalue="애플리케이션.MaxOfArray" />
         <item itemvalue="애플리케이션.Q07" />
-        <item itemvalue="애플리케이션.chap02.Q06" />
-        <item itemvalue="애플리케이션.chap02.CardConv" />
-        <item itemvalue="애플리케이션.chap02.Q05" />
-        <item itemvalue="애플리케이션.chap02.Q04" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +139,14 @@
       <option name="presentableId" value="Default" />
       <updated>1657378250701</updated>
     </task>
+    <task id="LOCAL-00001" summary="Java Algorithms Basic Day01&amp;Day02">
+      <created>1657544113512</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657544113512</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,5 +159,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Java Algorithms Basic Day01&amp;Day02" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Algorithms Basic Day01&amp;Day02" />
   </component>
 </project>
