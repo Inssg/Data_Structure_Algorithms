@@ -4,24 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1154e3ba-b5bc-4c37-a9c4-2eea541ede84" name="변경" comment="Java Algorithms Basic Day01&amp;Day02">
-      <change afterPath="$PROJECT_DIR$/src/chap03/BinSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap03/BinarySearchTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap03/Q01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap03/Q3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap03/Q5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap05/EightQueen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap05/EuclidGCD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap05/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap05/Hanoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap05/Q06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap05/Q1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap05/Q2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap05/Q3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap05/QueenB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap05/QueenBB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap05/Recur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap05/RecurMemo.java" afterDir="false" />
+    <list default="true" id="1154e3ba-b5bc-4c37-a9c4-2eea541ede84" name="변경" comment="Java Algorithms recursive &amp; Search">
+      <change afterPath="$PROJECT_DIR$/src/chap03/PhysExamSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap03/compare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap04/IntArrayQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap04/IntQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap04/IntQueueTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap04/IntStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap04/IntStackTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap04/LastNElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap04/Q03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap04/Q6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap04/Stack2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap04/deque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap06/ArraysSortTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap06/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap06/BubbleSort2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap06/BubbleSort3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap06/CountingSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap06/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap06/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap06/MergeArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap06/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap06/Partition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap06/PhyscExamSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap06/Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap06/Q5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap06/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap06/QuickSort3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap06/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap06/ShellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap06/ShellSort2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap06/SortCalendar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,18 +79,33 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="chap06" />
+      <recent name="chap04" />
       <recent name="chap03" />
       <recent name="chap02" />
       <recent name="chap01" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Q5">
-    <configuration name="Q06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap05.Q06" />
+  <component name="RunManager" selected="애플리케이션.PhyscExamSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap06.BubbleSort" />
       <module name="Data_Structure_Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap05.*" />
+          <option name="PATTERN" value="chap06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhyscExamSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap06.PhyscExamSort" />
+      <module name="Data_Structure_Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,14 +126,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueenB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="QueenB" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SeqSearchEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SeqSearchEx" />
+    <configuration name="SortCalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap06.SortCalendar" />
+      <module name="Data_Structure_Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,19 +153,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="애플리케이션.PhyscExamSort" />
+      <item itemvalue="애플리케이션.SortCalendar" />
+      <item itemvalue="애플리케이션.BubbleSort" />
       <item itemvalue="애플리케이션.Q5" />
       <item itemvalue="애플리케이션.chap03.Q3" />
-      <item itemvalue="애플리케이션.Q06" />
-      <item itemvalue="애플리케이션.QueenB" />
-      <item itemvalue="애플리케이션.SeqSearchEx" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.PhyscExamSort" />
+        <item itemvalue="애플리케이션.SortCalendar" />
+        <item itemvalue="애플리케이션.BubbleSort" />
         <item itemvalue="애플리케이션.Q5" />
         <item itemvalue="애플리케이션.chap03.Q3" />
-        <item itemvalue="애플리케이션.SeqSearchEx" />
-        <item itemvalue="애플리케이션.Q06" />
-        <item itemvalue="애플리케이션.QueenB" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657544113512</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Java Algorithms recursive &amp; Search">
+      <created>1658501446118</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658501446118</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,6 +208,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Java Algorithms Basic Day01&amp;Day02" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Algorithms Basic Day01&amp;Day02" />
+    <MESSAGE value="Java Algorithms recursive &amp; Search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Algorithms recursive &amp; Search" />
   </component>
 </project>
