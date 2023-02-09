@@ -34,7 +34,7 @@ public class Main {
 
             for (int i = N - 1; i >= 0; i--) {
                 if (seq[i] < seq[N]) {
-                    dp[N] = Math.max(dp[N], LIS(i) + seq[N]);
+                    dp[N] = Math.max(dp[N], dp[i] + seq[N]);
                 }
             }
         }
