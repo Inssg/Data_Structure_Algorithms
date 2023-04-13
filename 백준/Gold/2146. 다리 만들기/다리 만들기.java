@@ -1,99 +1,119 @@
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Scanner;
+// tip: each public class is put in its own file
 
-class Main {
-    private static int[][] map;
-    private static boolean[][] isVisited;
-    private static int N;
-    private static int[] dr = new int[]{-1, 0, 1, 0};
-    private static int[] dc = new int[]{0, -1, 0, 1};
-    private static int landNum = 2; //섬 번호이름
-    private static int answer = Integer.MAX_VALUE; //답
+import java.util.*;
+import java.io.*;
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        N = sc.nextInt();
-        map = new int[N][N];
-        isVisited = new boolean[N][N];
+public class Main {
+    static int[][] dp;
+    static int N;
+    static boolean[][] visited;
+    static int[] dirX = {0, 0, -1, 1};
+    static int[] dirY = {1, -1, 0, 0};
+    static int nowX, nowY;
+    static int num;
+    static int answer = Integer.MAX_VALUE;
+
+    // tip: arguments are passed via the field below this editor
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        N = Integer.parseInt(br.readLine());
+        dp = new int[N][N];
+        visited = new boolean[N][N];
+
         for (int i = 0; i < N; i++) {
+            StringTokenizer st = new StringTokenizer(br.readLine(), " ");
             for (int j = 0; j < N; j++) {
-                map[i][j] = sc.nextInt();
+                dp[i][j] = Integer.parseInt(st.nextToken());
             }
         }
 
-        for (int r = 0; r < N; r++) {
-            for (int c = 0; c < N; c++) {
-                if (map[r][c] == 1) { // 아직 번호이름 없는 섬인 경우
-                    makeLand(r, c);
+        num = 1;
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < N; j++) {
+                if (!visited[i][j] && dp[i][j] !=0) {
+                    num++;
+                    bfs(i, j);
                 }
             }
         }
 
-        for (int r = 0; r < N; r++) {
-            for (int c = 0; c < N; c++) {
-                if (map[r][c] >= 2) {
-                    isVisited = new boolean[N][N]; //재초기화
-                    bfs(r, c);
+        //섬의 개수 는 num - 1
+        //다른 섬을 만날때까지의 최단 거리
+        for(int i = 0; i < N; i++){
+            for(int j = 0; j < N; j++){
+                if(dp[i][j] >=2){
+                    visited = new boolean[N][N];
+                    bridge(i,j);
                 }
             }
         }
         System.out.println(answer);
+
     }
 
-    // 섬 별로 번호이름 붙여주기
-    private static void makeLand(int r, int c) {
-        Queue<Point> queue = new LinkedList<>();
-        queue.offer(new Point(r, c, 0));
-        isVisited[r][c] = true;
-        map[r][c] = landNum;
-        while (!queue.isEmpty()) {
-            Point point = queue.poll();
+    //bfs 돌면서 섬에다가 2부터 번호를 매긴다
+    //해당 섬에서 다른 섬까지 가는 경우의 수 중 최소값을 리턴하면된다.
+
+    static void bfs(int x, int y) {
+        Queue<spot> q = new LinkedList<>();
+        q.offer(new spot(x, y,0));
+        visited[x][y] = true;
+
+        while (!q.isEmpty()) {
+            spot s = q.poll();
+            
+            dp[s.x][s.y] = num;
             for (int i = 0; i < 4; i++) {
-                int r2 = point.r + dr[i];
-                int c2 = point.c + dc[i];
-                if ((r2 >= 0 && r2 < N && c2 >= 0 && c2 < N) && !isVisited[r2][c2] && map[r2][c2] == 1) {
-                    isVisited[r2][c2] = true;
-                    map[r2][c2] = landNum;
-                    queue.offer(new Point(r2, c2, 0));
+                nowX = s.x + dirX[i];
+                nowY = s.y + dirY[i];
+
+                if (check() && !visited[nowX][nowY] && dp[nowX][nowY] == 1) {
+                    visited[nowX][nowY] = true;
+                    q.offer(new spot(nowX, nowY,0));
                 }
             }
         }
-        landNum++;
     }
 
-    private static void bfs(int r, int c) {
-        Queue<Point> queue = new LinkedList<Point>();
-        queue.offer(new Point(r, c, 0));
-        int currentLandNum = map[r][c];// 현재 섬 번호
-        isVisited[r][c] = true;
-        while (!queue.isEmpty()) {
-            Point point = queue.poll();
-            for (int i = 0; i < 4; i++) {
-                int r2 = point.r + dr[i];
-                int c2 = point.c + dc[i];
-                if ((r2 >= 0 && r2 < N && c2 >= 0 && c2 < N) && !isVisited[r2][c2] && map[r2][c2] != currentLandNum) { //방문안하고 바다 혹은 다른 섬인 경우
-                    isVisited[r2][c2] = true;
-                    if (map[r2][c2] == 0) { //바다
-                        queue.offer(new Point(r2, c2, point.cnt + 1));
-                    } else { //다른 섬
-                        answer = Math.min(answer, point.cnt);
+    static void bridge(int x, int y){
+        Queue<spot>que = new LinkedList<>();
+        que.offer(new spot(x, y, 0));
+        int cur = dp[x][y];
+        visited[x][y] = true;
+        while(!que.isEmpty()){
+            spot st = que.poll();
+            for(int i = 0; i < 4; i++){
+                nowX = st.x + dirX[i];
+                nowY = st.y + dirY[i];
+
+                if(check() && !visited[nowX][nowY] && dp[nowX][nowY] != cur){
+                    visited[nowX][nowY] = true;
+                    if(dp[nowX][nowY] == 0){
+                        que.offer(new spot(nowX, nowY, st.count + 1));
+                    } else {
+                        answer = Math.min(answer, st.count);
                     }
                 }
             }
         }
+
     }
 
-    static class Point {
-        int r;
-        int c;
-        int cnt;
+    static boolean check() {
+        return nowX >= 0 && nowX < N && nowY >= 0 && nowY < N;
+    }
 
-        public Point(int r, int c, int cnt) {
-            this.r = r;
-            this.c = c;
-            this.cnt = cnt;
+    static class spot {
+        int x;
+        int y;
+        int count;
+
+        public spot(int x, int y, int count) {
+            this.x = x;
+            this.y = y;
+            this.count = count;
         }
     }
+
 
 }
